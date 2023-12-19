@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import styles from './login.module.scss';
 
 const LoginViews = () => {
-    const {push} = useRouter(); 
+    const { push } = useRouter(); 
     const HandleLogin = () => {
         push("/product");
     }
